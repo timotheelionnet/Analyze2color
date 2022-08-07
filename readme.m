@@ -1,14 +1,29 @@
-This code was used to match single molecule trajectories in two colors in the following publication:
+This code was used to match single molecule trajectories in two colors in the following publications:
+
+Analyze2color_localize3.m
+"An RNA biosensor for imaging the first round of translation from single cells to living animals."
+James M Halstead, Timothée Lionnet, Johannes H Wilbertz, Frank Wippich, Anne Ephrussi, Robert H Singer, Jeffrey A Chao
+Science 2015 347(6228): 1367-671. PMCID: PMC4451088.
+
+Analyze2color_diatrack3.m
 "Mapping translation 'hot-spots' in live cells by tracking single molecules of mRNA and ribosomes"
 Zachary B Katz, Brian P English, Timothée Lionnet, Young J Yoon, Nilah Monnier, Ben Ovryn, Mark Bathe, Robert H Singer
 Elife 2016 https://doi.org/10.7554/eLife.10415
 
-requirements:
+*****
+Analyze2color_localize3.m analyzes trajectory files obtained from the software Airlocalize
+(https://github.com/timotheelionnet/AIRLOCALIZE)
+Analyze2color_diatrack3 analyzes trajectory files obtained from the software Diatrack
+(https://www.nitrc.org/projects/diatrack/)
+
+*****
+Requirements to run the code:
 Matlab with the following toolboxes installed:
 Curve Fitting Toolbox
 Statistics and Machine Learning Toolbox
 
-usage:
+*****
+Analyze2color_diatrack3 usage :
 1 Set up the 'code' subfolder as Matlab's working directory.
 2 > enter Analyze2color_diatrack3(); in Matlab command line.
 3 set parameters in the following GUI:
