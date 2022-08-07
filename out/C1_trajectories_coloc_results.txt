@@ -1,0 +1,24 @@
+Diatrack File Channel 1: /Users/lionnt01/Downloads/for_Tim/sample_trajectories/C1_trajectories.txt
+Diatrack File Channel 2: /Users/lionnt01/Downloads/for_Tim/sample_trajectories/C2_trajectories.txt
+
+Pixel size: 0.107 um
+Time between frames: 0.015 s
+X shift: -0.67679 pix
+Y shift: -0.57945 pix
+
+Colocalized trajectories minimum overlap :3 frames
+Maximum distance allowed between colocalized traj4 frames
+Maximum distance allowed between colocalized spots: 3 pix
+
+54 colocalized trajectories
+
+Channel 1: 32 total trajectories
+27 colocalized trajectories (84.375%)
+5 trajectories without a match (15.625%)
+
+Channel 2: 180 total trajectories
+48 colocalized trajectories (26.6667%)
+132 trajectories without a match (73.3333%)
+
+
+ 
